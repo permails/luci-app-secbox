@@ -12,7 +12,6 @@ PKG_RELEASE:=1
 PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=permails <logo@permails.com>
 
-# Support compilation when placed under any subdirectory inside OpenWrt package/ folder
-include $(if $(wildcard $(TOPDIR)/feeds/luci/luci.mk),$(TOPDIR)/feeds/luci/luci.mk,$(if $(wildcard $(TOPDIR)/include/luci.mk),$(TOPDIR)/include/luci.mk,../../luci.mk))
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
