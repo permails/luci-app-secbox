@@ -7,7 +7,7 @@ LUCI_TITLE:=LuCI support for SecBox
 LUCI_DEPENDS:=+luci-base +banip
 LUCI_PKGARCH:=all
 
-PKG_VERSION:=1.8.11
+PKG_VERSION:=1.26.8
 PKG_RELEASE:=1
 PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=permails <logo@permails.com>
