@@ -1,0 +1,88 @@
+{
+	"admin/services/secbox": {
+		"title": "网络安全",
+		"order": "60",
+		"action": {
+			"type": "alias",
+			"path": "admin/services/secbox/overview"
+		},
+		"depends": {
+			"acl": [
+				"luci-app-secbox"
+			],
+			"fs": {
+				"/usr/bin/banip-service.sh": "executable",
+				"/etc/init.d/banip": "executable",
+				"/etc/banip/banip.feeds": "file",
+				"/etc/banip/banip.countries": "file"
+			},
+			"uci": {
+				"banip": true
+			}
+		}
+	},
+	"admin/services/secbox/overview": {
+		"title": "概况",
+		"order": 10,
+		"action": {
+			"type": "view",
+			"path": "secbox/overview"
+		}
+	},
+	"admin/services/secbox/settings": {
+		"title": "配置",
+		"order": 20,
+		"action": {
+			"type": "view",
+			"path": "secbox/settings"
+		}
+	},
+	"admin/services/secbox/allowlist": {
+		"title": "编辑白名单",
+		"order": 30,
+		"action": {
+			"type": "view",
+			"path": "secbox/allowlist"
+		}
+	},
+	"admin/services/secbox/blocklist": {
+		"title": "编辑黑名单",
+		"order": 40,
+		"action": {
+			"type": "view",
+			"path": "secbox/blocklist"
+		}
+	},
+	"admin/services/secbox/feeds": {
+		"title": "自定义源编辑器",
+		"order": 50,
+		"action": {
+			"type": "view",
+			"path": "secbox/feeds"
+		}
+	},
+	"admin/services/secbox/setreport": {
+		"title": "设置报告",
+		"order": 60,
+		"action": {
+			"type": "view",
+			"path": "secbox/setreport"
+		}
+	},
+	"admin/services/secbox/firewall_log": {
+		"title": "防火墙日志",
+		"order": 70,
+		"action": {
+			"type": "view",
+			"path": "secbox/firewall_log"
+		}
+	},
+	"admin/services/secbox/processing_log": {
+		"title": "处理日志",
+		"order": 80,
+		"action": {
+			"type": "view",
+			"path": "secbox/processing_log"
+		}
+	}
+}
