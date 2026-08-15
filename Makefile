@@ -4,7 +4,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI support for SecBox
-LUCI_DEPENDS:=+luci-base +banip
+LUCI_DEPENDS:=+luci-base +banip +nftables +kmod-nft-core
 LUCI_PKGARCH:=all
 
 PKG_VERSION:=1.26.8
