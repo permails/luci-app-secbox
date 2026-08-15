@@ -182,7 +182,7 @@ return view.extend({
 	load: function () {
 		return Promise.all([
 			uci.load('banip').catch(() => 0),
-			L.resolveDefault(fs.stat('/var/run/SecBox/SecBox.runtime.json'), null)
+			L.resolveDefault(fs.stat('/var/run/banIP/banIP.runtime.json'), null)
 		]);
 	},
 
@@ -204,10 +204,10 @@ return view.extend({
 		*/
 		let parseErrCount = 0;
 		poll.add(function () {
-			return L.resolveDefault(fs.stat('/var/run/SecBox/SecBox.runtime.json'), null).then(function (stat) {
+			return L.resolveDefault(fs.stat('/var/run/banIP/banIP.runtime.json'), null).then(function (stat) {
 				if (!stat) return;
 				return Promise.all([
-					L.resolveDefault(fs.read_direct('/var/run/SecBox/SecBox.runtime.json'), 'null'),
+					L.resolveDefault(fs.read_direct('/var/run/banIP/banIP.runtime.json'), 'null'),
 					L.resolveDefault(fs.exec_direct('/etc/init.d/banip', ['actual']), '')
 				]).then(function (results) {
 					const res = results[0];
@@ -325,7 +325,7 @@ return view.extend({
 					}
 				});
 			});
-		}, 2);
+		}, 3);
 
 		const style = E('style', { 'type': 'text/css' }, [
 			'#ban-op-grid .op-grid-2 { display: grid; gap: 1em; grid-template-columns: repeat(2, 1fr); margin-bottom: 1em; align-items: stretch; }' +

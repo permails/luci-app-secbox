@@ -20,12 +20,12 @@ function handleAction(report, ev) {
 					clearInterval(window._banipPoller);
 					window._banipPoller = null;
 				}
-				L.resolveDefault(fs.write('/var/run/SecBox/SecBox.search', ''), '').then(function () {
+				L.resolveDefault(fs.write('/var/run/banIP/banIP.search', ''), '').then(function () {
 					L.resolveDefault(fs.exec_direct('/etc/init.d/banip', ['search', ip]), '').then(function () {
 						let attempts = 0;
 						window._banipPoller = setInterval(function () {
 							attempts++;
-							L.resolveDefault(fs.read('/var/run/SecBox/SecBox.search'), '').then(function (res) {
+							L.resolveDefault(fs.read('/var/run/banIP/banIP.search'), '').then(function (res) {
 								if (res && res.trim()) {
 									clearInterval(window._banipPoller);
 									window._banipPoller = null;
@@ -36,7 +36,7 @@ function handleAction(report, ev) {
 									document.getElementById('result').textContent = _('Search timed out.');
 								}
 							});
-						}, 2000);
+						}, 3000);
 					});
 				});
 			}
@@ -258,10 +258,10 @@ return view.extend({
 			L.resolveDefault(fs.exec_direct('/etc/init.d/banip', ['report', 'json']), '')
 				.then(function (res) {
 					if (res && res.trim()) return res;
-					return L.resolveDefault(fs.read_direct('/tmp/SecBox-report/ban_report.jsn'), '')
+					return L.resolveDefault(fs.read_direct('/tmp/banIP-report/ban_report.jsn'), '')
 						.then(function (r) {
 							if (r && r.trim()) {
-								return L.resolveDefault(fs.read_direct('/tmp/SecBox-report/ban_map.jsn'), '[]')
+								return L.resolveDefault(fs.read_direct('/tmp/banIP-report/ban_map.jsn'), '[]')
 									.then(function (m) {
 										let rObj = JSON.parse(r);
 										let mObj = JSON.parse(m);
@@ -512,11 +512,11 @@ return view.extend({
 						});
 						btn.blur();
 						btn.classList.add('spinning');
-						L.resolveDefault(fs.write('/var/run/SecBox/SecBox.report', ''), '').then(function () {
+						L.resolveDefault(fs.write('/var/run/banIP/banIP.report', ''), '').then(function () {
 							L.resolveDefault(fs.exec_direct('/etc/init.d/banip', ['report', 'gen']), '');
 							let attempts = 0;
 							let poller = setInterval(function () {
-								L.resolveDefault(fs.read('/var/run/SecBox/SecBox.report'), '').then(function (res) {
+								L.resolveDefault(fs.read('/var/run/banIP/banIP.report'), '').then(function (res) {
 									res = (res || '').trim();
 									if (res === '1') {
 										clearInterval(poller);

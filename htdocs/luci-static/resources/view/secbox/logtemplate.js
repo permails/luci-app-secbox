@@ -42,7 +42,7 @@ return L.Class.extend({
 				};
 
 				this._pollFn = pollFn;
-				L.Poll.add(pollFn);
+				L.Poll.add(pollFn, 3);
 
 				const autoScrollBtn = E('button', {
 					'class': 'btn cbi-button cbi-button-neutral',
