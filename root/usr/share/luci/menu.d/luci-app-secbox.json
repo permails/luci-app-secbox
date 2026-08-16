@@ -1,6 +1,6 @@
 {
 	"admin/services/secbox": {
-		"title": "网络安全",
+		"title": "SecBox",
 		"order": "60",
 		"action": {
 			"type": "alias",
@@ -22,7 +22,7 @@
 		}
 	},
 	"admin/services/secbox/overview": {
-		"title": "概况",
+		"title": "Overview",
 		"order": 10,
 		"action": {
 			"type": "view",
@@ -30,7 +30,7 @@
 		}
 	},
 	"admin/services/secbox/settings": {
-		"title": "配置",
+		"title": "Configuration",
 		"order": 20,
 		"action": {
 			"type": "view",
@@ -38,7 +38,7 @@
 		}
 	},
 	"admin/services/secbox/allowlist": {
-		"title": "编辑白名单",
+		"title": "Allowlist",
 		"order": 30,
 		"action": {
 			"type": "view",
@@ -46,7 +46,7 @@
 		}
 	},
 	"admin/services/secbox/blocklist": {
-		"title": "编辑黑名单",
+		"title": "Blocklist",
 		"order": 40,
 		"action": {
 			"type": "view",
@@ -54,7 +54,7 @@
 		}
 	},
 	"admin/services/secbox/feeds": {
-		"title": "自定义源编辑器",
+		"title": "Custom Feeds",
 		"order": 50,
 		"action": {
 			"type": "view",
@@ -62,7 +62,7 @@
 		}
 	},
 	"admin/services/secbox/setreport": {
-		"title": "设置报告",
+		"title": "Set Reporting",
 		"order": 60,
 		"action": {
 			"type": "view",
@@ -70,7 +70,7 @@
 		}
 	},
 	"admin/services/secbox/firewall_log": {
-		"title": "防火墙日志",
+		"title": "Firewall Log",
 		"order": 70,
 		"action": {
 			"type": "view",
@@ -78,7 +78,7 @@
 		}
 	},
 	"admin/services/secbox/processing_log": {
-		"title": "处理日志",
+		"title": "Processing Log",
 		"order": 80,
 		"action": {
 			"type": "view",
