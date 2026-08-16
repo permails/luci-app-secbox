@@ -1510,3 +1510,6 @@ msgstr "防火墙日志"
 
 msgid "SecBox Processing Log"
 msgstr "处理日志"
+
+msgid "With this editor you can upload your local custom feed file or fill up an initial one (a 1:1 copy of the version shipped with the package). The file is located at '/etc/banip/banip.custom.feeds'. Then you can edit this file, delete entries, add new ones or make a local backup. To go back to the maintainers version just clear the custom feed file."
+msgstr "通过此编辑器，您可以上传本地自定义黑名单源文件或初始化一个初始文件（与软件包附带版本 1:1 完全一致的副本）。该文件位于 “/etc/banip/banip.custom.feeds”。随后您可以自由编辑该文件、删除条目、添加新源或创建本地备份。若要恢复为系统默认版本，只需清空自定义源文件即可。"

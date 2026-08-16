@@ -24,7 +24,12 @@ return L.Class.extend({
 						const logEl = document.getElementById('logfile');
 						if (!logEl) return;
 						const filtered = (res?.log ?? [])
-							.filter(entry => !logtag || entry.msg.includes(logtag))
+							.filter(entry => {
+								if (!logtag) return true;
+								if (entry.msg.includes(logtag)) return true;
+								const cleanTag = logtag.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+								return entry.msg.toLowerCase().includes(cleanTag);
+							})
 							.map(entry => {
 								const d = new Date(entry.time);
 								const pad = n => String(n).padStart(2, '0');

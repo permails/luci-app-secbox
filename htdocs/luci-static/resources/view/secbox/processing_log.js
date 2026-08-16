@@ -1,4 +1,4 @@
 'use strict';
-'require view.banip.logtemplate as LogTemplate';
+'require view.secbox.logtemplate as LogTemplate';
 
-return LogTemplate.Logview('SecBox-', _('Processing Log'));
+return LogTemplate.Logview('banIP-', _('Processing Log'));
