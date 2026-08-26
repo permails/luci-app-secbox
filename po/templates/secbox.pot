@@ -1,0 +1,1674 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: setreport.js:3743
+msgid "+ Add to Allowlist"
+msgstr ""
+
+#: setreport.js:3988
+msgid "+ Add to Blocklist"
+msgstr ""
+
+#: settings.js:20028
+#: settings.js:22987
+#: settings.js:24103
+#: settings.js:24756
+#: settings.js:26474
+msgid "-- Please choose (optional) --"
+msgstr ""
+
+#: setreport.js:4822
+msgid "-- Set Selection --"
+msgstr ""
+
+#: settings.js:5612
+#: settings.js:7066
+#: settings.js:7471
+#: settings.js:7806
+#: settings.js:8174
+#: settings.js:9821
+#: settings.js:11159
+#: settings.js:11598
+#: settings.js:12042
+#: settings.js:12680
+#: settings.js:12986
+#: settings.js:13327
+#: settings.js:14322
+#: settings.js:14720
+#: settings.js:15137
+#: settings.js:15539
+#: settings.js:15910
+#: settings.js:16702
+#: settings.js:17871
+#: settings.js:18622
+#: settings.js:19028
+#: settings.js:27557
+#: settings.js:28428
+msgid "-- default --"
+msgstr ""
+
+#: feeds.js:7253
+msgid "<IP-Address>"
+msgstr ""
+
+#: feeds.js:7296
+msgid "<IP-Address><CSV-Separator>"
+msgstr ""
+
+#: feeds.js:7353
+msgid "<IP-Address><Space><Netmask>"
+msgstr ""
+
+#: feeds.js:7412
+msgid "<JSON Lines><IP-Address><JSON Lines>"
+msgstr ""
+
+#: feeds.js:7481
+msgid "<Suricata Syntax>"
+msgstr ""
+
+#: settings.js:24382
+msgid "AFRINIC - serving Africa and the Indian Ocean region"
+msgstr ""
+
+#: settings.js:24461
+msgid "APNIC - serving the Asia Pacific region"
+msgstr ""
+
+#: settings.js:24526
+msgid "ARIN - serving Canada and the United States"
+msgstr ""
+
+#: settings.js:25174
+msgid "ASN Selection"
+msgstr ""
+
+#: settings.js:25261
+msgid "ASNs"
+msgstr ""
+
+#: allowlist.js:5978
+#: allowlist.js:8342
+#: blocklist.js:4310
+#: blocklist.js:6705
+msgid "Action"
+msgstr ""
+
+#: overview.js:18445
+msgid "Active Feeds"
+msgstr ""
+
+#: overview.js:18149
+msgid "Active Feeds & Flags"
+msgstr ""
+
+#: settings.js:19906
+msgid "AdGuardHome login error"
+msgstr ""
+
+#: allowlist.js:8859
+#: blocklist.js:7222
+msgid "Add Rule"
+msgstr ""
+
+#: allowlist.js:7765
+msgid "Add User Custom Rule"
+msgstr ""
+
+#: blocklist.js:5798
+msgid "Added blocklist entry \"%s\"."
+msgstr ""
+
+#: allowlist.js:7441
+msgid "Added custom rule \"%s\"."
+msgstr ""
+
+#: settings.js:5166
+msgid "Additional trigger delay in seconds before SecBox processing begins."
+msgstr ""
+
+#: allowlist.js:5704
+msgid "Address / Domain / Network"
+msgstr ""
+
+#: allowlist.js:8070
+#: blocklist.js:6431
+msgid "Address or Domain"
+msgstr ""
+
+#: settings.js:2173
+msgid "Advanced Settings"
+msgstr ""
+
+#: settings.js:9962
+msgid "Allow Protocol/Ports"
+msgstr ""
+
+#: settings.js:10227
+msgid "Allow VLAN Forwards"
+msgstr ""
+
+#: overview.js:4781
+#: overview.js:17120
+msgid "Allowed VLAN"
+msgstr ""
+
+#: setreport.js:3708
+#: menu.json
+msgid "Allowlist"
+msgstr ""
+
+#: settings.js:25880
+msgid "Allowlist Feed URLs"
+msgstr ""
+
+#: settings.js:28782
+msgid "Allowlist Only"
+msgstr ""
+
+#: allowlist.js:11743
+msgid "Allowlist changes saved."
+msgstr ""
+
+#: allowlist.js:11114
+msgid "Allowlist saved and SecBox service reloaded successfully!"
+msgstr ""
+
+#: settings.js:9989
+msgid "Always allow a protocol (tcp/udp) with certain ports or port ranges in"
+" WAN-Input and WAN-Forward chain."
+msgstr ""
+
+#: settings.js:10253
+msgid "Always allow certain VLAN forwards."
+msgstr ""
+
+#: settings.js:10476
+msgid "Always block certain VLAN forwards."
+msgstr ""
+
+#: settings.js:433
+msgid "Applying configuration & reloading SecBox..."
+msgstr ""
+
+#: settings.js:27312
+msgid "Auto Allow Uplink"
+msgstr ""
+
+#: settings.js:27098
+msgid "Auto Allowlist"
+msgstr ""
+
+#: settings.js:27910
+msgid "Auto Block Subnet"
+msgstr ""
+
+#: settings.js:27697
+msgid "Auto Blocklist"
+msgstr ""
+
+#: settings.js:2942
+msgid "Auto Detection"
+msgstr ""
+
+#: allowlist.js:3669
+#: allowlist.js:4046
+msgid "Auto detected by SecBox / protected"
+msgstr ""
+
+#: setreport.js:18686
+msgid "Auto-added IPs"
+msgstr ""
+
+#: setreport.js:18853
+msgid "Auto-added to Allowlist"
+msgstr ""
+
+#: setreport.js:18927
+msgid "Auto-added to Blocklist"
+msgstr ""
+
+#: logtemplate.js:1697
+msgid "Auto-scroll: OFF"
+msgstr ""
+
+#: logtemplate.js:1674
+#: logtemplate.js:1735
+msgid "Auto-scroll: ON"
+msgstr ""
+
+#: settings.js:27934
+msgid "Automatically add entire subnets to the blocklist Set based on an addi"
+"tional RDAP request with the suspicious IP."
+msgstr ""
+
+#: settings.js:27718
+msgid "Automatically add resolved domains and suspicious IPs to the local Sec"
+"Box blocklist."
+msgstr ""
+
+#: settings.js:27119
+msgid "Automatically add resolved domains and uplink IPs to the local SecBox "
+"allowlist."
+msgstr ""
+
+#: settings.js:8475
+msgid "Backup Directory"
+msgstr ""
+
+#: settings.js:8293
+msgid "Base Directory"
+msgstr ""
+
+#: settings.js:8314
+msgid "Base working directory while SecBox processing."
+msgstr ""
+
+#: settings.js:10450
+msgid "Block VLAN Forwards"
+msgstr ""
+
+#: settings.js:10677
+msgid "Block packets with spoofed source IP addresses in all supported chains."
+msgstr ""
+
+#: blocklist.js:4019
+msgid "Blocked Address / Domain / Network"
+msgstr ""
+
+#: setreport.js:19213
+msgid "Blocked Packets"
+msgstr ""
+
+#: overview.js:4815
+#: overview.js:17170
+msgid "Blocked VLAN"
+msgstr ""
+
+#: setreport.js:3953
+#: menu.json
+msgid "Blocklist"
+msgstr ""
+
+#: blocklist.js:3717
+msgid "Blocklist Entries"
+msgstr ""
+
+#: settings.js:22677
+msgid "Blocklist Feed"
+msgstr ""
+
+#: settings.js:28170
+msgid "Blocklist Set Expiry"
+msgstr ""
+
+#: blocklist.js:9935
+msgid "Blocklist changes saved."
+msgstr ""
+
+#: blocklist.js:9322
+msgid "Blocklist saved and SecBox service reloaded successfully!"
+msgstr ""
+
+#: settings.js:18791
+msgid "Burst size in packets for the shared NFT log limit."
+msgstr ""
+
+#: overview.js:4634
+#: settings.js:7611
+msgid "CPU Cores"
+msgstr ""
+
+#: setreport.js:6575
+#: setreport.js:8148
+msgid "Cancel"
+msgstr ""
+
+#: feeds.js:7591
+msgid "Chain"
+msgstr ""
+
+#: settings.js:9594
+msgid "Chain Priority"
+msgstr ""
+
+#: settings.js:2583
+msgid "Changes on this tab need a SecBox service restart to take effect."
+msgstr ""
+
+#: settings.js:22353
+msgid "Changes on this tab needs a SecBox service reload to take effect."
+msgstr ""
+
+#: settings.js:6548
+#: settings.js:9395
+#: settings.js:12297
+#: settings.js:16152
+msgid "Changes on this tab needs a SecBox service restart to take effect."
+msgstr ""
+
+#: feeds.js:9606
+msgid "Clear"
+msgstr ""
+
+#: setreport.js:4166
+msgid "Close"
+msgstr ""
+
+#: settings.js:25272
+msgid "Collection of IP addresses based on Autonomous System Numbers."
+msgstr ""
+
+#: allowlist.js:5850
+msgid "Comment"
+msgstr ""
+
+#: allowlist.js:8207
+msgid "Comment / Note"
+msgstr ""
+
+#: blocklist.js:4173
+#: blocklist.js:6568
+msgid "Comment / Source"
+msgstr ""
+
+#: menu.json
+msgid "Configuration"
+msgstr ""
+
+#: settings.js:1759
+msgid "Configuration of the SecBox package to ban incoming and outgoing IPs v"
+"ia named nftables Sets. For further information please check the %s."
+msgstr ""
+
+#: setreport.js:11476
+msgid "Count"
+msgstr ""
+
+#: settings.js:23524
+msgid "Countries"
+msgstr ""
+
+#: settings.js:23249
+msgid "Country Selection"
+msgstr ""
+
+#: blocklist.js:4588
+msgid "Currently no blocked entries. Add one below."
+msgstr ""
+
+#: menu.json
+msgid "Custom Feeds"
+msgstr ""
+
+#: settings.js:9090
+msgid "Deduplicate IP addresses across all active Sets and tidy up the local "
+"blocklist."
+msgstr ""
+
+#: settings.js:9068
+msgid "Deduplicate IPs"
+msgstr ""
+
+#: allowlist.js:5303
+#: blocklist.js:3618
+msgid "Delete"
+msgstr ""
+
+#: blocklist.js:3471
+msgid "Delete and unblock this rule"
+msgstr ""
+
+#: allowlist.js:5157
+msgid "Delete this custom rule"
+msgstr ""
+
+#: feeds.js:7775
+msgid "Description"
+msgstr ""
+
+#: settings.js:2963
+msgid "Detect relevant network devices, interfaces, subnets, protocols and ut"
+"ilities automatically."
+msgstr ""
+
+#: settings.js:27440
+msgid "Disable"
+msgstr ""
+
+#: overview.js:5006
+msgid "Disabled"
+msgstr ""
+
+#: settings.js:5778
+msgid "Don't check SSL server certificates during download."
+msgstr ""
+
+#: feeds.js:8862
+msgid "Download"
+msgstr ""
+
+#: settings.js:5754
+msgid "Download Insecure"
+msgstr ""
+
+#: settings.js:4574
+msgid "Download Parameters"
+msgstr ""
+
+#: settings.js:5381
+msgid "Download Retries"
+msgstr ""
+
+#: overview.js:4686
+msgid "Download Tool"
+msgstr ""
+
+#: settings.js:4290
+msgid "Download Utility"
+msgstr ""
+
+#: settings.js:13158
+msgid "Drop packets silently or actively reject Inbound traffic."
+msgstr ""
+
+#: settings.js:21204
+msgid "E-Mail Notification"
+msgstr ""
+
+#: settings.js:22031
+msgid "E-Mail Profile"
+msgstr ""
+
+#: settings.js:21373
+msgid "E-Mail Receiver Address"
+msgstr ""
+
+#: settings.js:21641
+msgid "E-Mail Sender Address"
+msgstr ""
+
+#: settings.js:2351
+msgid "E-Mail Settings"
+msgstr ""
+
+#: settings.js:21842
+msgid "E-Mail Topic"
+msgstr ""
+
+#: setreport.js:15376
+#: setreport.js:18448
+msgid "Elements"
+msgstr ""
+
+#: setreport.js:12019
+msgid "Elements (max. 50)"
+msgstr ""
+
+#: feeds.js:6465
+#: feeds.js:7922
+#: settings.js:20607
+msgid "Empty field not allowed"
+msgstr ""
+
+#: settings.js:10658
+msgid "Enable BCP38"
+msgstr ""
+
+#: settings.js:6145
+msgid "Enable GeoIP Map"
+msgstr ""
+
+#: settings.js:5941
+msgid "Enable NFT counters for Set elements and chain rules. Required for the"
+" GeoIP Map and packet statistics in the Set Reporting."
+msgstr ""
+
+#: settings.js:20164
+msgid "Enable Remote Logging"
+msgstr ""
+
+#: settings.js:6168
+msgid "Enable a GeoIP Map with suspicious Set elements. This requires externa"
+"l requests to get the map tiles and geolocation data."
+msgstr ""
+
+#: settings.js:20192
+msgid "Enable the cgi interface to receive remote logging events."
+msgstr ""
+
+#: settings.js:2796
+msgid "Enable verbose debug logging in case of processing errors."
+msgstr ""
+
+#: settings.js:3159
+msgid "Enables IPv4 support."
+msgstr ""
+
+#: settings.js:3339
+msgid "Enables IPv6 support."
+msgstr ""
+
+#: overview.js:750
+msgid "Enabling and starting SecBox service..."
+msgstr ""
+
+#: overview.js:5031
+msgid "Error"
+msgstr ""
+
+#: settings.js:8870
+msgid "Error Directory"
+msgstr ""
+
+#: overview.js:198
+msgid "Executing action: %s..."
+msgstr ""
+
+#: settings.js:28197
+msgid "Expiry time for auto added blocklist Set members."
+msgstr ""
+
+#: settings.js:25737
+msgid "External Allowlist Feeds"
+msgstr ""
+
+#: settings.js:22534
+msgid "External Blocklist Feeds"
+msgstr ""
+
+#: settings.js:839
+msgid "Failed to %s SecBox: %s"
+msgstr ""
+
+#: overview.js:562
+msgid "Failed to execute action \"%s\": %s"
+msgstr ""
+
+#: setreport.js:23054
+msgid "Failed to generate a SecBox report!"
+msgstr ""
+
+#: setreport.js:2268
+msgid "Failed to update list: %s"
+msgstr ""
+
+#: overview.js:1516
+msgid "Failed to update service status: %s"
+msgstr ""
+
+#: settings.js:15670
+msgid "Feed Complete"
+msgstr ""
+
+#: settings.js:15265
+msgid "Feed Flag Reset"
+msgstr ""
+
+#: feeds.js:6294
+msgid "Feed Name"
+msgstr ""
+
+#: settings.js:2391
+msgid "Feed Selection"
+msgstr ""
+
+#: settings.js:2266
+msgid "Feed/Set Settings"
+msgstr ""
+
+#: feeds.js:9362
+msgid "Fill"
+msgstr ""
+
+#: firewall_log.js:102
+#: menu.json
+msgid "Firewall Log"
+msgstr ""
+
+#: feeds.js:8017
+msgid "Flag"
+msgstr ""
+
+#: feeds.js:8199
+msgid "Flag not supported"
+msgstr ""
+
+#: allowlist.js:7162
+#: blocklist.js:5497
+msgid "Format invalid: \"%s\" is not a valid address without spaces."
+msgstr ""
+
+#: settings.js:2129
+msgid "General Settings"
+msgstr ""
+
+#: settings.js:6895
+msgid "High Priority"
+msgstr ""
+
+#: settings.js:6854
+msgid "Highest Priority"
+msgstr ""
+
+#: setreport.js:15515
+msgid "Hits"
+msgstr ""
+
+#: overview.js:4547
+msgid "ICMP Limit"
+msgstr ""
+
+#: settings.js:10862
+msgid "ICMP-Threshold"
+msgstr ""
+
+#: settings.js:10883
+msgid "ICMP-Threshold in packets per second to prevent WAN-DoS attacks. To di"
+"sable this safeguard set it to '0'."
+msgstr ""
+
+#: settings.js:27505
+msgid "IP"
+msgstr ""
+
+#: setreport.js:1873
+msgid "IP \"%s\" is already in %s."
+msgstr ""
+
+#: setreport.js:2357
+msgid "IP Search & Quick Action"
+msgstr ""
+
+#: setreport.js:23391
+msgid "IP Search..."
+msgstr ""
+
+#: settings.js:3753
+msgid "IPv4 Network Interfaces"
+msgstr ""
+
+#: overview.js:4480
+msgid "IPv4 Protocol"
+msgstr ""
+
+#: settings.js:3140
+msgid "IPv4 Support"
+msgstr ""
+
+#: settings.js:4023
+msgid "IPv6 Network Interfaces"
+msgstr ""
+
+#: overview.js:4512
+msgid "IPv6 Protocol"
+msgstr ""
+
+#: settings.js:3320
+msgid "IPv6 Support"
+msgstr ""
+
+#: feeds.js:7621
+msgid "Inbound"
+msgstr ""
+
+#: feeds.js:7690
+msgid "Inbound & Outbound"
+msgstr ""
+
+#: settings.js:14848
+msgid "Inbound & Outbound Feed"
+msgstr ""
+
+#: settings.js:13131
+msgid "Inbound Block Policy"
+msgstr ""
+
+#: settings.js:14052
+msgid "Inbound Feed"
+msgstr ""
+
+#: setreport.js:11598
+msgid "Inbound&#160;(packets)"
+msgstr ""
+
+#: settings.js:7231
+msgid "Increase the maximal number of open files, e.g. to handle the amount o"
+"f temporary split files while loading the Sets."
+msgstr ""
+
+#: overview.js:16873
+msgid "Interfaces"
+msgstr ""
+
+#: settings.js:26766
+msgid "Invalid URL format"
+msgstr ""
+
+#: feeds.js:6552
+#: settings.js:20696
+msgid "Invalid characters"
+msgstr ""
+
+#: settings.js:28642
+msgid "Invalid expiry format, e.g. 5m, 2h, 1d or 1h30m"
+msgstr ""
+
+#: feeds.js:3585
+msgid "Invalid input values, unable to save modifications."
+msgstr ""
+
+#: settings.js:24597
+msgid "LACNIC - serving the Latin American and Caribbean region"
+msgstr ""
+
+#: settings.js:7007
+msgid "Least Priority"
+msgstr ""
+
+#: settings.js:6970
+msgid "Less Priority"
+msgstr ""
+
+#: settings.js:7627
+msgid "Limit the cpu cores used by SecBox to save RAM, autodetected by default."
+msgstr ""
+
+#: settings.js:27336
+msgid "Limit the uplink autoallow function."
+msgstr ""
+
+#: settings.js:4949
+msgid "List of available network interfaces to trigger the SecBox start."
+msgstr ""
+
+#: setreport.js:5261
+msgid "List the elements of a specific SecBox-related Set."
+msgstr ""
+
+#: settings.js:27002
+msgid "Local Feed Settings"
+msgstr ""
+
+#: settings.js:17349
+msgid "Location for parsing the log file, e.g. via syslog-ng, to deactivate t"
+"he standard parsing via logread."
+msgstr ""
+
+#: settings.js:18769
+msgid "Log Burst Limit"
+msgstr ""
+
+#: settings.js:18009
+msgid "Log Count"
+msgstr ""
+
+#: settings.js:17000
+msgid "Log Inbound"
+msgstr ""
+
+#: settings.js:17580
+msgid "Log Limit"
+msgstr ""
+
+#: settings.js:17169
+msgid "Log Outbound"
+msgstr ""
+
+#: settings.js:16844
+msgid "Log Prerouting"
+msgstr ""
+
+#: settings.js:18246
+msgid "Log Rate Limit"
+msgstr ""
+
+#: overview.js:4658
+msgid "Log Service"
+msgstr ""
+
+#: settings.js:2310
+msgid "Log Settings"
+msgstr ""
+
+#: settings.js:19171
+msgid "Log Terms"
+msgstr ""
+
+#: settings.js:17188
+msgid "Log suspicious packets in the LAN-Forward chain."
+msgstr ""
+
+#: settings.js:16865
+msgid "Log suspicious packets in the Prerouting chain."
+msgstr ""
+
+#: settings.js:17018
+msgid "Log suspicious packets in the WAN-Input and WAN-Forward chain."
+msgstr ""
+
+#: settings.js:17326
+msgid "Logfile Location"
+msgstr ""
+
+#: settings.js:19452
+msgid "LuCI failed login"
+msgstr ""
+
+#: blocklist.js:8208
+msgid "Manage locally blocked IP addresses, CIDR ranges, MAC addresses or dom"
+"ains."
+msgstr ""
+
+#: allowlist.js:9850
+msgid "Manage trusted local devices, subnets and domains that will never be b"
+"locked by SecBox."
+msgstr ""
+
+#: setreport.js:8400
+msgid "Map Reset"
+msgstr ""
+
+#: setreport.js:24159
+msgid "Map..."
+msgstr ""
+
+#: settings.js:7210
+msgid "Max Open Files"
+msgstr ""
+
+#: overview.js:16301
+msgid "NFT Information"
+msgstr ""
+
+#: settings.js:16349
+msgid "NFT Log Level"
+msgstr ""
+
+#: settings.js:3507
+msgid "Network Devices"
+msgstr ""
+
+#: setreport.js:7227
+msgid "Network error"
+msgstr ""
+
+#: settings.js:6744
+msgid "Nice Level"
+msgstr ""
+
+#: setreport.js:24091
+msgid "No GeoIP Map data!"
+msgstr ""
+
+#: settings.js:1446
+msgid "No SecBox config found!"
+msgstr ""
+
+#: allowlist.js:6258
+msgid "No custom allowlist entries yet. Add one below."
+msgstr ""
+
+#: logtemplate.js:1276
+msgid "No related logs"
+msgstr ""
+
+#: settings.js:6931
+msgid "Normal Priority"
+msgstr ""
+
+#: overview.js:5085
+msgid "Not Running"
+msgstr ""
+
+#: settings.js:12845
+msgid "Number of Set load attempts in case of an error."
+msgstr ""
+
+#: settings.js:5404
+msgid "Number of download attempts in case of an error (not supported by ucli"
+"ent-fetch)."
+msgstr ""
+
+#: settings.js:18025
+msgid "Number of failed login attempts of the same IP in the log before block"
+"ing."
+msgstr ""
+
+#: allowlist.js:9126
+#: blocklist.js:7489
+msgid "One record per line. Supports IPv4, IPv6, CIDR, MAC, Domain and commen"
+"ts starting with \"#\"."
+msgstr ""
+
+#: settings.js:15690
+msgid "Opt out specific feeds from the deduplication process."
+msgstr ""
+
+#: blocklist.js:5106
+msgid "Optional comment (e.g. Malicious Bot)"
+msgstr ""
+
+#: allowlist.js:6774
+msgid "Optional comment (e.g. Office NAS)"
+msgstr ""
+
+#: feeds.js:7654
+msgid "Outbound"
+msgstr ""
+
+#: settings.js:14448
+msgid "Outbound Feed"
+msgstr ""
+
+#: setreport.js:11737
+msgid "Outbound&#160;(packets)"
+msgstr ""
+
+#: settings.js:14878
+msgid "Override the default feed configuration and apply the feed to the inbo"
+"und and outbound chain."
+msgstr ""
+
+#: settings.js:14071
+msgid "Override the default feed configuration and apply the feed to the inbo"
+"und chain only."
+msgstr ""
+
+#: settings.js:14468
+msgid "Override the default feed configuration and apply the feed to the outb"
+"ound chain only."
+msgstr ""
+
+#: settings.js:15287
+msgid "Override the default feed configuration and remove existing port/proto"
+"col limitations."
+msgstr ""
+
+#: settings.js:4600
+msgid "Override the pre-configured download options for the selected download"
+" utility. The output flag, e.g. '-o' for curl or '-O' for wget, must b"
+"e the last parameter."
+msgstr ""
+
+#: menu.json
+msgid "Overview"
+msgstr ""
+
+#: settings.js:17596
+msgid "Parse only the last stated number of log entries for suspicious events"
+". To disable the log monitor at all set it to '0'."
+msgstr ""
+
+#: setreport.js:1599
+msgid "Please enter or search an IP first."
+msgstr ""
+
+#: allowlist.js:6979
+#: blocklist.js:5314
+msgid "Please specify a valid IP, CIDR, Domain or MAC address."
+msgstr ""
+
+#: overview.js:4455
+msgid "Policy"
+msgstr ""
+
+#: setreport.js:11877
+msgid "Port&#160;/&#160;Protocol"
+msgstr ""
+
+#: overview.js:4429
+msgid "Priority"
+msgstr ""
+
+#: processing_log.js:102
+#: menu.json
+msgid "Processing Log"
+msgstr ""
+
+#: overview.js:4973
+msgid "Processing..."
+msgstr ""
+
+#: settings.js:22052
+msgid "Profile used by 'msmtp' for SecBox notification E-Mails."
+msgstr ""
+
+#: feeds.js:6826
+#: feeds.js:7115
+msgid "Protocol/URL format not supported"
+msgstr ""
+
+#: blocklist.js:6126
+msgid "Quick Add Block Rule"
+msgstr ""
+
+#: settings.js:24679
+msgid "RIPE - serving Europe, Middle East and Central Asia"
+msgstr ""
+
+#: settings.js:18267
+msgid "Rate (per second) for the shared NFT log limit, applied globally acros"
+"s all logged rules. Set to '0' to disable rate limiting entirely, e.g."
+" when using ulogd or other userspace log handlers."
+msgstr ""
+
+#: allowlist.js:9049
+#: blocklist.js:7412
+msgid "Raw Text Editor"
+msgstr ""
+
+#: overview.js:13997
+msgid "Real-time runtime status, active sets and blocking statistics for the "
+"SecBox service."
+msgstr ""
+
+#: settings.js:21230
+msgid "Receive E-Mail notifications with every SecBox run."
+msgstr ""
+
+#: settings.js:21403
+msgid "Receiver address for SecBox notification E-Mails, this information is "
+"required to enable E-Mail functionality."
+msgstr ""
+
+#: setreport.js:23184
+msgid "Refresh"
+msgstr ""
+
+#: settings.js:24253
+msgid "Regional Internet Registry"
+msgstr ""
+
+#: settings.js:19190
+msgid "Regular expressions to detect suspicious IPs in the system log. Uses t"
+"he last IP per line; prefix a term with 'first:' for source-first form"
+"ats, e.g. nginx."
+msgstr ""
+
+#: allowlist.js:10921
+#: blocklist.js:9129
+msgid "Reloading SecBox service..."
+msgstr ""
+
+#: settings.js:20377
+msgid "Remote Token"
+msgstr ""
+
+#: settings.js:19982
+msgid "Remote logging Event"
+msgstr ""
+
+#: settings.js:8671
+msgid "Report Directory"
+msgstr ""
+
+#: settings.js:5916
+msgid "Reporting Counters"
+msgstr ""
+
+#: settings.js:28803
+msgid "Restrict the internet access from/to a small number of secure IPs."
+msgstr ""
+
+#: setreport.js:3095
+#: setreport.js:6178
+msgid "Result"
+msgstr ""
+
+#: feeds.js:7220
+msgid "Rule"
+msgstr ""
+
+#: overview.js:15455
+msgid "Rule Elements & Last Run"
+msgstr ""
+
+#: overview.js:18723
+msgid "Run Flags"
+msgstr ""
+
+#: overview.js:4935
+msgid "Running (active)"
+msgstr ""
+
+#: overview.js:4578
+msgid "SYN Limit"
+msgstr ""
+
+#: settings.js:11303
+msgid "SYN-Threshold"
+msgstr ""
+
+#: settings.js:11323
+msgid "SYN-Threshold in packets per second to prevent WAN-DoS attacks. To dis"
+"able this safeguard set it to '0'."
+msgstr ""
+
+#: feeds.js:8611
+msgid "Save"
+msgstr ""
+
+#: settings.js:29206
+msgid "Save & Reload"
+msgstr ""
+
+#: settings.js:29410
+msgid "Save & Restart"
+msgstr ""
+
+#: allowlist.js:11297
+msgid "Saved allowlist, but failed to reload SecBox: %s"
+msgstr ""
+
+#: blocklist.js:9505
+msgid "Saved blocklist, but failed to reload SecBox: %s"
+msgstr ""
+
+#: setreport.js:4345
+msgid "Search IP"
+msgstr ""
+
+#: setreport.js:421
+msgid "Search is running, please wait..."
+msgstr ""
+
+#: setreport.js:2400
+msgid "Search the SecBox-related Sets for a specific IP and take quick actions."
+msgstr ""
+
+#: setreport.js:1306
+msgid "Search timed out."
+msgstr ""
+
+#: menu.json
+msgid "SecBox"
+msgstr ""
+
+#: allowlist.js:9775
+msgid "SecBox Allowlist"
+msgstr ""
+
+#: blocklist.js:8133
+msgid "SecBox Blocklist"
+msgstr ""
+
+#: overview.js:13925
+msgid "SecBox Overview"
+msgstr ""
+
+#: setreport.js:17700
+msgid "SecBox Set Reporting"
+msgstr ""
+
+#: settings.js:1948
+msgid "SecBox Settings"
+msgstr ""
+
+#: settings.js:641
+msgid "SecBox configuration saved and service %sed successfully."
+msgstr ""
+
+#: overview.js:384
+msgid "SecBox service action \"%s\" executed successfully."
+msgstr ""
+
+#: overview.js:1264
+msgid "SecBox service enabled and started."
+msgstr ""
+
+#: overview.js:1307
+msgid "SecBox service stopped and disabled."
+msgstr ""
+
+#: settings.js:4313
+msgid "Select one of the pre-configured download utilities."
+msgstr ""
+
+#: settings.js:3529
+msgid "Select the WAN network device(s)."
+msgstr ""
+
+#: settings.js:3783
+msgid "Select the logical WAN IPv4 network interface(s)."
+msgstr ""
+
+#: settings.js:4053
+msgid "Select the logical WAN IPv6 network interface(s)."
+msgstr ""
+
+#: settings.js:21669
+msgid "Sender address for SecBox notification E-Mails."
+msgstr ""
+
+#: setreport.js:5508
+#: setreport.js:11356
+#: setreport.js:15242
+msgid "Set"
+msgstr ""
+
+#: setreport.js:5231
+msgid "Set Content"
+msgstr ""
+
+#: setreport.js:23604
+msgid "Set Content..."
+msgstr ""
+
+#: settings.js:12822
+msgid "Set Load Retries"
+msgstr ""
+
+#: setreport.js:18233
+msgid "Set Overview"
+msgstr ""
+
+#: settings.js:12492
+msgid "Set Policy"
+msgstr ""
+
+#: menu.json
+msgid "Set Reporting"
+msgstr ""
+
+#: settings.js:7931
+msgid "Set Split Size"
+msgstr ""
+
+#: setreport.js:21754
+msgid "Set details"
+msgstr ""
+
+#: settings.js:9615
+msgid "Set the NFT chain priority within the SecBox table, lower values means"
+" higher priority."
+msgstr ""
+
+#: settings.js:12509
+msgid "Set the NFT policy for SecBox-related Sets."
+msgstr ""
+
+#: settings.js:16369
+msgid "Set the syslog level for NFT logging."
+msgstr ""
+
+#: setreport.js:18398
+msgid "Sets"
+msgstr ""
+
+#: settings.js:2071
+msgid "Settings"
+msgstr ""
+
+#: setreport.js:7378
+msgid "Show Content"
+msgstr ""
+
+#: setreport.js:6029
+msgid "Show only Set elements with hits"
+msgstr ""
+
+#: settings.js:25465
+msgid "Split ASN Set"
+msgstr ""
+
+#: settings.js:24893
+msgid "Split Country Set"
+msgstr ""
+
+#: settings.js:7952
+msgid "Split external Set loading after every n members to save RAM, disabled"
+" by default."
+msgstr ""
+
+#: overview.js:7694
+#: overview.js:14690
+msgid "Start Service"
+msgstr ""
+
+#: settings.js:4917
+msgid "Startup Trigger Interface"
+msgstr ""
+
+#: overview.js:14300
+msgid "Status"
+msgstr ""
+
+#: settings.js:29613
+msgid "Stop"
+msgstr ""
+
+#: overview.js:7562
+#: overview.js:14670
+msgid "Stop Service"
+msgstr ""
+
+#: overview.js:5055
+msgid "Stopped"
+msgstr ""
+
+#: overview.js:797
+msgid "Stopping and disabling SecBox service..."
+msgstr ""
+
+#: settings.js:27475
+msgid "Subnet"
+msgstr ""
+
+#: setreport.js:2129
+msgid "Successfully added \"%s\" to %s!"
+msgstr ""
+
+#: settings.js:24286
+msgid "Summary of countries based on the Regional Internet Registry (RIR)."
+msgstr ""
+
+#: allowlist.js:10545
+#: blocklist.js:8784
+msgid "Switch to Raw Text Editor"
+msgstr ""
+
+#: allowlist.js:10517
+#: blocklist.js:8756
+msgid "Switch to Table View"
+msgstr ""
+
+#: allowlist.js:3944
+msgid "System Auto-Protected Rules"
+msgstr ""
+
+#: overview.js:17500
+msgid "System Info"
+msgstr ""
+
+#: overview.js:4404
+msgid "Table"
+msgstr ""
+
+#: settings.js:2219
+msgid "Table/Chain Settings"
+msgstr ""
+
+#: settings.js:8892
+msgid "Target directory for SecBox-related error files."
+msgstr ""
+
+#: settings.js:8694
+msgid "Target directory for SecBox-related report files."
+msgstr ""
+
+#: settings.js:8498
+msgid "Target directory for compressed feed backups."
+msgstr ""
+
+#: allowlist.js:2659
+msgid "The allowlist is too big, raw editor mode enforced."
+msgstr ""
+
+#: blocklist.js:2515
+msgid "The blocklist is too big, raw editor mode enforced."
+msgstr ""
+
+#: settings.js:25485
+msgid "The selected ASNs are stored in separate Sets."
+msgstr ""
+
+#: settings.js:24917
+msgid "The selected Countries are stored in separate Sets."
+msgstr ""
+
+#: settings.js:6761
+msgid "The selected priority will be used for SecBox background processing."
+msgstr ""
+
+#: setreport.js:17777
+msgid "This report shows the latest NFT Set statistics, press the 'Refresh' b"
+"utton to get a new one. \t\t\t\tYou can also display the specific content "
+"of Sets, search for suspicious IPs and finally, these IPs can also be "
+"displayed on a map."
+msgstr ""
+
+#: setreport.js:18509
+msgid "Timestamp"
+msgstr ""
+
+#: settings.js:20967
+msgid "To enable email notifications, set up the 'msmtp' package and specify "
+"a valid E-Mail receiver address."
+msgstr ""
+
+#: settings.js:20396
+msgid "Token to communicate with the cgi interface."
+msgstr ""
+
+#: setreport.js:21432
+msgid "Top Sets (Most Hits)"
+msgstr ""
+
+#: settings.js:21861
+msgid "Topic for SecBox notification E-Mails."
+msgstr ""
+
+#: settings.js:5146
+msgid "Trigger Delay"
+msgstr ""
+
+#: overview.js:4608
+msgid "UDP Limit"
+msgstr ""
+
+#: settings.js:11742
+msgid "UDP-Threshold"
+msgstr ""
+
+#: settings.js:11762
+msgid "UDP-Threshold in packets per second to prevent WAN-DoS attacks. To dis"
+"able this safeguard set it to '0'."
+msgstr ""
+
+#: feeds.js:6643
+msgid "URLv4"
+msgstr ""
+
+#: feeds.js:6932
+msgid "URLv6"
+msgstr ""
+
+#: overview.js:6495
+msgid "Unable to parse the SecBox runtime information!"
+msgstr ""
+
+#: settings.js:23994
+msgid "Unable to parse the countries file!"
+msgstr ""
+
+#: settings.js:13623
+msgid "Unable to parse the custom feed file!"
+msgstr ""
+
+#: settings.js:13840
+msgid "Unable to parse the default feed file!"
+msgstr ""
+
+#: setreport.js:4688
+msgid "Unable to parse the ruleset file!"
+msgstr ""
+
+#: allowlist.js:11851
+#: blocklist.js:10043
+msgid "Unable to save changes: %s"
+msgstr ""
+
+#: overview.js:4850
+#: overview.js:17220
+msgid "Uplink IPv4"
+msgstr ""
+
+#: overview.js:4884
+#: overview.js:17266
+msgid "Uplink IPv6"
+msgstr ""
+
+#: feeds.js:9113
+msgid "Upload"
+msgstr ""
+
+#: feeds.js:2117
+#: feeds.js:2344
+msgid "Upload of the custom feed file failed."
+msgstr ""
+
+#: allowlist.js:5402
+msgid "User Custom Rules"
+msgstr ""
+
+#: settings.js:2768
+msgid "Verbose Debug Logging"
+msgstr ""
+
+#: overview.js:15177
+msgid "Version"
+msgstr ""
+
+#: overview.js:4718
+#: overview.js:17028
+msgid "WAN Device"
+msgstr ""
+
+#: overview.js:4746
+#: overview.js:17073
+msgid "WAN Interface"
+msgstr ""
+
+#: feeds.js:5490
+msgid "With this editor you can upload your local custom feed file or fill up"
+" an initial one (a 1:1 copy of the version shipped with the package). "
+"The file is located at '/etc/banip/banip.custom.feeds'. Then you can e"
+"dit this file, delete entries, add new ones or make a local backup. To"
+" go back to the maintainers version just clear the custom feed file."
+msgstr ""
+
+#: setreport.js:21587
+msgid "Worst Sets (Least Hits)"
+msgstr ""
+
+#: settings.js:16465
+msgid "alert"
+msgstr ""
+
+#: settings.js:19714
+msgid "asterisk invalid account"
+msgstr ""
+
+#: setreport.js:21130
+msgid "bcp38"
+msgstr ""
+
+#: settings.js:16496
+msgid "crit"
+msgstr ""
+
+#: settings.js:16649
+msgid "debug"
+msgstr ""
+
+#: settings.js:13241
+msgid "drop"
+msgstr ""
+
+#: settings.js:19391
+msgid "dropbear failed login"
+msgstr ""
+
+#: allowlist.js:6577
+msgid "e.g. 192.168.1.100, 10.0.0.0/24, or example.com"
+msgstr ""
+
+#: blocklist.js:4900
+msgid "e.g. 198.51.100.1, 203.0.113.0/24, or malicious-site.com"
+msgstr ""
+
+#: settings.js:16433
+msgid "emerg"
+msgstr ""
+
+#: settings.js:16525
+msgid "err"
+msgstr ""
+
+#: setreport.js:20855
+msgid "icmp-flood"
+msgstr ""
+
+#: settings.js:16618
+msgid "info"
+msgstr ""
+
+#: setreport.js:19864
+msgid "invalid ct"
+msgstr ""
+
+#: setreport.js:20495
+msgid "invalid tcp"
+msgstr ""
+
+#: settings.js:14188
+#: settings.js:14586
+#: settings.js:15003
+#: settings.js:15405
+#: settings.js:15776
+msgid "local allowlist"
+msgstr ""
+
+#: settings.js:14235
+#: settings.js:14633
+#: settings.js:15050
+#: settings.js:15452
+#: settings.js:15823
+msgid "local blocklist"
+msgstr ""
+
+#: settings.js:12580
+msgid "memory"
+msgstr ""
+
+#: settings.js:16586
+msgid "notice"
+msgstr ""
+
+#: settings.js:1704
+msgid "online documentation"
+msgstr ""
+
+#: settings.js:19818
+msgid "openvpn TLS error"
+msgstr ""
+
+#: settings.js:12619
+msgid "performance"
+msgstr ""
+
+#: settings.js:13273
+msgid "reject"
+msgstr ""
+
+#: settings.js:19618
+msgid "sshd closed connection"
+msgstr ""
+
+#: settings.js:19538
+msgid "sshd failed login"
+msgstr ""
+
+#: setreport.js:19591
+msgid "syn-flood"
+msgstr ""
+
+#: setreport.js:20222
+msgid "udp-flood"
+msgstr ""
+
+#: settings.js:16554
+msgid "warn"
+msgstr ""
+

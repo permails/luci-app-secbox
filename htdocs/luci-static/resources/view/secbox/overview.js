@@ -98,11 +98,13 @@ function flagChips(text) {
 	if (!pairs.length) return ['-'];
 	return pairs.map(function (flag) {
 		const on = flag[1] === '\u2714';
+		const key = flag[0].trim();
+		const label = flagMap[key] || keyMap[key] || key;
 		return E('span', {
 			'style': 'display: inline-block; margin: 0 .4em .35em 0; padding: .2em .55em; border-radius: 4px; font-size: .88em; white-space: nowrap;' +
 				(on ? 'background: rgba(16, 185, 129, 0.15); color: #059669; border: 1px solid rgba(16, 185, 129, 0.3);' : 'background: rgba(0, 0, 0, 0.05); color: #64748b; border: 1px solid rgba(0, 0, 0, 0.1);')
 		}, [
-			(on ? '\u2714 ' : '\u2718 ') + flag[0]
+			(on ? '\u2714 ' : '\u2718 ') + label
 		]);
 	});
 }
@@ -130,9 +132,13 @@ function splitCount(text) {
 	if (idx < 0) {
 		return { 'count': value || '-', 'detail': '-' };
 	}
+	let detail = value.substring(idx + 2).replace(/\)$/, '') || '-';
+	detail = detail.replace(/\bchains\b/g, _('chains'))
+		.replace(/\bsets\b/g, _('sets'))
+		.replace(/\brules\b/g, _('rules'));
 	return {
 		'count': value.substring(0, idx) || '-',
-		'detail': value.substring(idx + 2).replace(/\)$/, '') || '-'
+		'detail': detail
 	};
 }
 
@@ -158,6 +164,8 @@ const keyMap = {
 	'limit icmp': _('ICMP Limit'),
 	'limit syn': _('SYN Limit'),
 	'limit udp': _('UDP Limit'),
+	'loglimit rate': _('Log Rate Limit'),
+	'loglimit burst': _('Log Burst Limit'),
 	'cores': _('CPU Cores'),
 	'log': _('Log Service'),
 	'fetch': _('Download Tool'),
@@ -166,8 +174,52 @@ const keyMap = {
 	'vlan-allow': _('Allowed VLAN'),
 	'vlan-block': _('Blocked VLAN'),
 	'uplink IPv4': _('Uplink IPv4'),
-	'uplink IPv6': _('Uplink IPv6')
+	'uplink IPv6': _('Uplink IPv6'),
+	'ver': _('Version'),
+	'loglevel': _('Log Level'),
+	'expiry': _('Expiry'),
+	'memory': _('Memory')
 };
+
+const valueMap = {
+	'memory': _('memory'),
+	'warn': _('warn'),
+	'error': _('Error'),
+	'drop': _('drop'),
+	'reject': _('reject'),
+	'restart': _('restart')
+};
+
+const flagMap = {
+	'nft': _('nft'),
+	'monitor': _('monitor'),
+	'auto': _('auto'),
+	'bcp38': _('bcp38'),
+	'count': _('count'),
+	'dedup': _('dedup'),
+	'split': _('split'),
+	'debug': _('debug'),
+	'custom feed': _('custom feed'),
+	'allowed only': _('allowed only'),
+	'log pre': _('Log Prerouting'),
+	'log in': _('Log Inbound'),
+	'log out': _('Log Outbound'),
+	'proto 4': _('IPv4 Protocol'),
+	'proto 6': _('IPv6 Protocol')
+};
+
+function translateValue(s) {
+	if (typeof s !== 'string') return s;
+	// duration: 0m 1s
+	let t = s.replace(/^(\d+m)\s+(\d+s)$/, '$1 $2')
+		.replace(/(\d+)m/g, '$1' + _('m'))
+		.replace(/(\d+)s/g, '$1' + _('s'));
+	// suffix: available
+	t = t.replace(/\bavailable\b/, _('available'));
+	// exact value
+	if (valueMap[t.trim()]) return valueMap[t.trim()];
+	return t;
+}
 
 const stateMap = {
 	'active': _('Running (active)'),
@@ -267,7 +319,11 @@ return view.extend({
 						setText('elements_count', elements.count);
 						setText('elements_sub', elements.detail !== '-' ? elements.detail : '');
 						setText('last_run_time', pickValue(runPairs, 'date / time'));
-						setText('last_run_detail', [pickValue(runPairs, 'mode'), pickValue(runPairs, 'duration'), pickValue(runPairs, 'memory')].filter(v => v && v !== '-').join(', '));
+						setText('last_run_detail', [
+							translateValue(pickValue(runPairs, 'mode')),
+							translateValue(pickValue(runPairs, 'duration')),
+							translateValue(pickValue(runPairs, 'memory'))
+						].filter(v => v && v !== '-').join(', '));
 
 						setText('wan_dev', join(info.wan_devices));
 						setText('wan_if', join(info.wan_interfaces));
@@ -284,9 +340,10 @@ return view.extend({
 						nftPairs.forEach((p, idx) => {
 							if (p[0]) {
 								const k = keyMap[p[0].trim()] || p[0].trim();
+								const v = translateValue(p[1]);
 								nftNodes.push(E('tr', { 'class': 'tr cbi-section-table-row cbi-rowstyle-' + ((idx % 2) ? 2 : 1) }, [
 									E('td', { 'class': 'td cbi-section-table-cell op-col-key' }, [k]),
-									E('td', { 'class': 'td cbi-section-table-cell op-col-val', 'style': 'font-family: monospace;' }, [p[1]])
+									E('td', { 'class': 'td cbi-section-table-cell op-col-val', 'style': 'font-family: monospace;' }, [v])
 								]));
 							}
 						});
@@ -303,9 +360,10 @@ return view.extend({
 						sysList.forEach((p, idx) => {
 							if (p[0]) {
 								const k = keyMap[p[0].trim()] || p[0].trim();
+								const v = translateValue(p[1]);
 								sysNodes.push(E('tr', { 'class': 'tr cbi-section-table-row cbi-rowstyle-' + ((idx % 2) ? 2 : 1) }, [
 									E('td', { 'class': 'td cbi-section-table-cell op-full-key' }, [k]),
-									E('td', { 'class': 'td cbi-section-table-cell op-full-val' }, [p[1]])
+									E('td', { 'class': 'td cbi-section-table-cell op-full-val' }, [v])
 								]));
 							} else {
 								sysNodes.push(E('tr', { 'class': 'tr cbi-section-table-row cbi-rowstyle-' + ((idx % 2) ? 2 : 1) }, [
