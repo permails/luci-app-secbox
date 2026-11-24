@@ -24,6 +24,7 @@ Runtime and build dependencies:
 - `luci-base`
 - `nftables`
 - `kmod-nft-core`
+- `msmtp` (Email notification support)
 
 ---
 
