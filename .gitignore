@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary & Build Artifacts
+*.tmp
+*.bak
+*.log
+*.lmo
+*.ipk
+*.apk
+tmp/
+dist/
+build/
+
+# Local Reference & Scratch Docs
+luci-frontend-design-spec.md
+*.local.*
